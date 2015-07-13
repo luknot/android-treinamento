@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.labm4.projeto_redesocial.home">
+
+
+    <item
+        android:id="@+id/btn_coment"
+        android:title="comentario"
+        android:icon="@drawable/ic_action_image_edit"
+        android:orderInCategory="97"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="listacomentario"
+        android:id="@+id/btn_listcoment"
+        android:icon="@drawable/abc_ic_menu_paste_mtrl_am_alpha"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"/>
+
+</menu>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Like my Headphone</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cria_conta">Cadastro</string>
+    <string name="title_activity_esqueci_senha">Esqueci minha senha</string>
+    <string name="title_activity_home">Comentários</string>
+    <string name="seunome">Seu nome:</string>
+    <string name="seuemail">Seu email:</string>
+    <string name="suasenha">Sua senha:</string>
+    <string name="rptsenha">Repita sua senha:</string>
+    <string name="btn_criar">criar</string>
+    <string name="titulo_acesso">Entre com sua conta</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_senha">Senha</string>
+    <string name="btn_esqsenha">Esqueci minha senha</string>
+    <string name="btn_entrar">entrar</string>
+    <string name="btn_criarconta">criar conta</string>
+    <string name="titulo_recupsenha">Sua nova senha será enviada para o seu email.</string>
+    <string name="hint_digiteemail">Digite seu email</string>
+    <string name="btn_recupsenha">recuperar senha</string>
+    <string name="title_activity_enviar_coment">Seu comentário</string>
+    <string name="title_activity_coment">Enviar comentário</string>
+
+
+</resources>

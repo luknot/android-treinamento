@@ -1,0 +1,122 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#f4f4f4"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:background="#9f9f9f"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+
+            <TextView
+                android:gravity="center"
+                android:text="Marca"
+                android:textColor="#9f9f9f"
+                android:textColorHint="#9f9f9f"
+                android:background="#f4f4f4"
+                android:layout_margin="2dp"
+                android:paddingLeft="5dp"
+                android:id="@+id/dt_marca"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:background="#9f9f9f"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+
+            <TextView
+                android:gravity="center"
+                android:text="Modelo"
+                android:textColor="#9f9f9f"
+                android:textColorHint="#9f9f9f"
+                android:background="#f4f4f4"
+                android:layout_margin="2dp"
+                android:paddingLeft="5dp"
+                android:id="@+id/dt_modelo"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_btn_star_on"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_btn_star_on"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_btn_star_on"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_btn_star_off"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_btn_star_off"/>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_margin="3dp"
+            android:background="#9f9f9f"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+
+            <TextView
+                android:gravity="center"
+                android:text="Comentário"
+                android:textColor="#9f9f9f"
+                android:textColorHint="#9f9f9f"
+                android:background="#f4f4f4"
+                android:layout_margin="2dp"
+                android:paddingLeft="5dp"
+                android:id="@+id/dt_coments"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
